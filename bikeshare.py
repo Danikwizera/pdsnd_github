@@ -38,7 +38,7 @@ def get_filters():
             month=month[:3].lower()
             break
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: This is to get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day=input("Please User! Enter the first three characters of the day of the week. choose between:Mon, Tue, Wed ,Thu, Fri, Sat, Sun; or \"All\"")
         days=['mon','tue','wed','thu','fri','sat','sun','all']
