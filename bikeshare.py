@@ -28,7 +28,7 @@ def get_filters():
     print('You chose city of {}'.format(city.title()))
 
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: This is to get user input for month (all, january, february, ... , june)
     while True:
         months=['all','jan','feb','mar','apr','may','jun']
         month=input("Please User! Choose one month that you want to view its data by typing only the first three characters. choose between: January, February, March, April, May, June or \"All\"")
