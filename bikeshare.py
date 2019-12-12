@@ -28,7 +28,7 @@ def get_filters():
     print('You chose city of {}'.format(city.title()))
 
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: This is to get user input for month (all, january, february, ... , june)
     while True:
         months=['all','jan','feb','mar','apr','may','jun']
         month=input("Please User! Choose one month that you want to view its data by typing only the first three characters. choose between: January, February, March, April, May, June or \"All\"")
@@ -38,7 +38,7 @@ def get_filters():
             month=month[:3].lower()
             break
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: This is to get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day=input("Please User! Enter the first three characters of the day of the week. choose between:Mon, Tue, Wed ,Thu, Fri, Sat, Sun; or \"All\"")
         days=['mon','tue','wed','thu','fri','sat','sun','all']
@@ -87,14 +87,14 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month
-    most_common_month=df['month'].mode()
+    common_month=df['month'].mode()
     print ("The Most Common Month!")
-    print(most_common_month)
+    print(common_month)
 
     # TO DO: display the most common day of week
-    most_common_day=df['day_of_week'].mode()
+    common_day=df['day_of_week'].mode()
     print ('The Most Common day of the week!')
-    print(most_common_day)
+    print(common_day)
 
     # TO DO: display the most common start hour
     most_start_hour=df['hour'].mode()
