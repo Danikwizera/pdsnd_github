@@ -1,5 +1,5 @@
 ### Date created
-It was created on December 12, 2019.
+This project was created on December 12, 2019.
 
 ### Project Title
 Final project(3) of Programming for Data Science Nanodegree.
