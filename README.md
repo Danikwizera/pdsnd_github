@@ -2,7 +2,7 @@
 It was created on December 12, 2019.
 
 ### Project Title
-Final project(3) of Programming for Data Science Nanodegree.
+This is the Final project(3) of Programming for Data Science Nanodegree.
 
 ### Description
 This project is the final project and it is for simulating a realistic workflow
